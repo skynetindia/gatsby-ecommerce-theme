@@ -179,7 +179,7 @@ const Footer = (prop) => {
               </span>
             </div>
           </div>
-                  <script id="aioa-adawidget" src="https://www.skynettechnologies.com/accessibility/js/all-in-one-accessibility-js-widget-minify.js?colorcode=#420083&token=AIOAOS45-E6JB-MAZ5-Q3ZB-1PB2-O8IP&position=bottom_right" defer></script>
+          <script id="aioa-adawidget" src="https://www.skynettechnologies.com/accessibility/js/all-in-one-accessibility-js-widget-minify.js?colorcode=#000000&token=ADAAIOA-683A9CFB57EEF75F201ED372C18FA06A&position=top_center" defer></script>
         </Container>
       </div>
     </div>
