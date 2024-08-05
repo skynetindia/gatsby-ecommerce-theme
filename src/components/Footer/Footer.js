@@ -22,6 +22,11 @@ const Footer = (prop) => {
   const handleSocialClick = (platform) => {
     window.open(Config.social[platform]);
   };
+  let aioa_script_tag = document.createElement("script");
+  aioa_script_tag.src = "https://www.skynettechnologies.com/accessibility/js/all-in-one-accessibility-js-widget-minify.js?colorcode=#420083&token=AIOAOS45-E6JB-MAZ5-Q3ZB-1PB2-O8IP&position=bottom_right";
+  aioa_script_tag.id = "aioa-adawidget";
+  aioa_script_tag.defer="true";
+  document.getElementsByTagName("body")[0].appendChild(aioa_script_tag);
 
   const renderLinks = (linkCollection) => {
     return (
